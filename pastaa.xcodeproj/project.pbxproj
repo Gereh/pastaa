@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E85D08F31AA5C8A50088CA28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85D08F21AA5C8A50088CA28 /* Foundation.framework */; };
+		E85D08F51AA5C8AD0088CA28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85D08F41AA5C8AD0088CA28 /* UIKit.framework */; };
+		E85D08F71AA5CA080088CA28 /* loginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85D08F61AA5CA080088CA28 /* loginView.xib */; };
+		E85D08FA1AA5CCBA0088CA28 /* loginView.m in Sources */ = {isa = PBXBuildFile; fileRef = E85D08F91AA5CCBA0088CA28 /* loginView.m */; };
+		E85D08FD1AA5CF420088CA28 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85D08FC1AA5CF420088CA28 /* ListViewController.m */; };
 		E8FAA89E1AA4A08700686796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAA89D1AA4A08700686796 /* main.m */; };
 		E8FAA8A11AA4A08700686796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAA8A01AA4A08700686796 /* AppDelegate.m */; };
-		E8FAA8A41AA4A08700686796 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAA8A31AA4A08700686796 /* ViewController.m */; };
 		E8FAA8A71AA4A08700686796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FAA8A51AA4A08700686796 /* Main.storyboard */; };
 		E8FAA8A91AA4A08700686796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FAA8A81AA4A08700686796 /* Images.xcassets */; };
 		E8FAA8AC1AA4A08700686796 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FAA8AA1AA4A08700686796 /* LaunchScreen.xib */; };
 		E8FAA8B81AA4A08700686796 /* pastaaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAA8B71AA4A08700686796 /* pastaaTests.m */; };
+		E8FAA8C31AA4A14E00686796 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAA8C21AA4A14E00686796 /* LoginViewController.m */; };
+		E8FAA8C51AA4A54500686796 /* registerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FAA8C41AA4A54500686796 /* registerView.xib */; };
+		E8FAA8C71AA4A61E00686796 /* foodTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8FAA8C61AA4A61E00686796 /* foodTest.jpg */; };
+		E8FAA8C91AA4A6A600686796 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8FAA8C81AA4A6A600686796 /* test.jpg */; };
+		E8FAA8CF1AA4ABA600686796 /* registerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FAA8CE1AA4ABA600686796 /* registerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +36,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E85D08F21AA5C8A50088CA28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E85D08F41AA5C8AD0088CA28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E85D08F61AA5CA080088CA28 /* loginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginView.xib; sourceTree = "<group>"; };
+		E85D08F81AA5CCBA0088CA28 /* loginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginView.h; sourceTree = "<group>"; };
+		E85D08F91AA5CCBA0088CA28 /* loginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginView.m; sourceTree = "<group>"; };
+		E85D08FB1AA5CF420088CA28 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		E85D08FC1AA5CF420088CA28 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		E8FAA8981AA4A08700686796 /* pastaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pastaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FAA89C1AA4A08700686796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8FAA89D1AA4A08700686796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8FAA89F1AA4A08700686796 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8FAA8A01AA4A08700686796 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E8FAA8A21AA4A08700686796 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E8FAA8A31AA4A08700686796 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E8FAA8A61AA4A08700686796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8FAA8A81AA4A08700686796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E8FAA8AB1AA4A08700686796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E8FAA8B11AA4A08700686796 /* pastaaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pastaaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FAA8B61AA4A08700686796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8FAA8B71AA4A08700686796 /* pastaaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pastaaTests.m; sourceTree = "<group>"; };
+		E8FAA8C11AA4A14E00686796 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		E8FAA8C21AA4A14E00686796 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		E8FAA8C41AA4A54500686796 /* registerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerView.xib; sourceTree = "<group>"; };
+		E8FAA8C61AA4A61E00686796 /* foodTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodTest.jpg; sourceTree = "<group>"; };
+		E8FAA8C81AA4A6A600686796 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		E8FAA8CD1AA4ABA600686796 /* registerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registerView.h; path = ../registerView.h; sourceTree = "<group>"; };
+		E8FAA8CE1AA4ABA600686796 /* registerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = registerView.m; path = ../registerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85D08F51AA5C8AD0088CA28 /* UIKit.framework in Frameworks */,
+				E85D08F31AA5C8A50088CA28 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,9 @@
 		E8FAA88F1AA4A08600686796 = {
 			isa = PBXGroup;
 			children = (
+				E85D08F41AA5C8AD0088CA28 /* UIKit.framework */,
+				E85D08F21AA5C8A50088CA28 /* Foundation.framework */,
+				E8FAA8C61AA4A61E00686796 /* foodTest.jpg */,
 				E8FAA89A1AA4A08700686796 /* pastaa */,
 				E8FAA8B41AA4A08700686796 /* pastaaTests */,
 				E8FAA8991AA4A08700686796 /* Products */,
@@ -81,11 +107,20 @@
 		E8FAA89A1AA4A08700686796 /* pastaa */ = {
 			isa = PBXGroup;
 			children = (
+				E8FAA8C11AA4A14E00686796 /* LoginViewController.h */,
+				E8FAA8C21AA4A14E00686796 /* LoginViewController.m */,
 				E8FAA89F1AA4A08700686796 /* AppDelegate.h */,
 				E8FAA8A01AA4A08700686796 /* AppDelegate.m */,
-				E8FAA8A21AA4A08700686796 /* ViewController.h */,
-				E8FAA8A31AA4A08700686796 /* ViewController.m */,
 				E8FAA8A51AA4A08700686796 /* Main.storyboard */,
+				E85D08FB1AA5CF420088CA28 /* ListViewController.h */,
+				E85D08FC1AA5CF420088CA28 /* ListViewController.m */,
+				E8FAA8C81AA4A6A600686796 /* test.jpg */,
+				E8FAA8C41AA4A54500686796 /* registerView.xib */,
+				E85D08F61AA5CA080088CA28 /* loginView.xib */,
+				E85D08F81AA5CCBA0088CA28 /* loginView.h */,
+				E85D08F91AA5CCBA0088CA28 /* loginView.m */,
+				E8FAA8CD1AA4ABA600686796 /* registerView.h */,
+				E8FAA8CE1AA4ABA600686796 /* registerView.m */,
 				E8FAA8A81AA4A08700686796 /* Images.xcassets */,
 				E8FAA8AA1AA4A08700686796 /* LaunchScreen.xib */,
 				E8FAA89B1AA4A08700686796 /* Supporting Files */,
@@ -199,8 +234,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FAA8C71AA4A61E00686796 /* foodTest.jpg in Resources */,
+				E8FAA8C91AA4A6A600686796 /* test.jpg in Resources */,
+				E85D08F71AA5CA080088CA28 /* loginView.xib in Resources */,
 				E8FAA8A71AA4A08700686796 /* Main.storyboard in Resources */,
 				E8FAA8AC1AA4A08700686796 /* LaunchScreen.xib in Resources */,
+				E8FAA8C51AA4A54500686796 /* registerView.xib in Resources */,
 				E8FAA8A91AA4A08700686796 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FAA8A41AA4A08700686796 /* ViewController.m in Sources */,
 				E8FAA8A11AA4A08700686796 /* AppDelegate.m in Sources */,
+				E8FAA8CF1AA4ABA600686796 /* registerView.m in Sources */,
+				E85D08FD1AA5CF420088CA28 /* ListViewController.m in Sources */,
 				E8FAA89E1AA4A08700686796 /* main.m in Sources */,
+				E85D08FA1AA5CCBA0088CA28 /* loginView.m in Sources */,
+				E8FAA8C31AA4A14E00686796 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +454,7 @@
 				E8FAA8BD1AA4A08700686796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8FAA8BE1AA4A08700686796 /* Build configuration list for PBXNativeTarget "pastaaTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +463,7 @@
 				E8FAA8C01AA4A08700686796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
