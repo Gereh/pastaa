@@ -10,10 +10,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Pi2-RR-mE4">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                </imageView>
-                <view alpha="0.5499999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Mb-Zl-iF3">
+                <view alpha="0.59999999999999964" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Mb-Zl-iF3">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -27,9 +24,6 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <connections>
-                        <action selector="backToLoginPage:" destination="iN0-l3-epB" eventType="touchUpInside" id="5ne-dL-kbR"/>
-                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  ایمیل" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STT-8J-EbY">
                     <rect key="frame" x="8" y="64" width="304" height="40"/>
@@ -59,9 +53,7 @@
                     </state>
                 </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="Pi2-RR-mE4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2EY-Bb-pwA"/>
                 <constraint firstItem="cIa-Nv-VOb" firstAttribute="top" secondItem="STT-8J-EbY" secondAttribute="bottom" constant="1" id="A3H-sL-kRL"/>
                 <constraint firstItem="rmu-fB-fJA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="C0Q-Yy-oyh"/>
                 <constraint firstItem="cIa-Nv-VOb" firstAttribute="leading" secondItem="STT-8J-EbY" secondAttribute="leading" id="CWx-TD-hXk"/>
@@ -71,25 +63,20 @@
                 <constraint firstItem="STT-8J-EbY" firstAttribute="top" secondItem="rmu-fB-fJA" secondAttribute="bottom" constant="14" id="L0i-8l-e8L"/>
                 <constraint firstItem="4Mb-Zl-iF3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OgA-cA-weX"/>
                 <constraint firstItem="fcp-Rh-tRk" firstAttribute="top" secondItem="cIa-Nv-VOb" secondAttribute="bottom" constant="15" id="Qer-oI-YTr"/>
-                <constraint firstAttribute="bottom" secondItem="Pi2-RR-mE4" secondAttribute="bottom" id="TyT-ON-C3j"/>
                 <constraint firstAttribute="trailing" secondItem="STT-8J-EbY" secondAttribute="trailing" constant="8" id="VC5-lJ-2SS"/>
                 <constraint firstItem="cIa-Nv-VOb" firstAttribute="trailing" secondItem="STT-8J-EbY" secondAttribute="trailing" id="Vbr-8b-J34"/>
                 <constraint firstItem="rmu-fB-fJA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZFI-K3-Bvh"/>
-                <constraint firstAttribute="trailing" secondItem="Pi2-RR-mE4" secondAttribute="trailing" id="aF4-ue-c1R"/>
                 <constraint firstItem="cIa-Nv-VOb" firstAttribute="height" secondItem="STT-8J-EbY" secondAttribute="height" id="fdI-m8-FfW"/>
                 <constraint firstItem="fcp-Rh-tRk" firstAttribute="leading" secondItem="cIa-Nv-VOb" secondAttribute="leading" id="jxW-Ch-wIE"/>
-                <constraint firstItem="Pi2-RR-mE4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lp9-wJ-pdo"/>
                 <constraint firstItem="STT-8J-EbY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="nrc-jX-V6j"/>
                 <constraint firstAttribute="trailing" secondItem="4Mb-Zl-iF3" secondAttribute="trailing" id="t2r-2x-h6j"/>
                 <constraint firstItem="4Mb-Zl-iF3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uyY-7r-NLQ"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="backBtn" destination="rmu-fB-fJA" id="9Rx-I5-Wiw"/>
                 <outlet property="loginBtn" destination="fcp-Rh-tRk" id="Brc-gh-bCr"/>
             </connections>
         </view>
     </objects>
-    <resources>
-        <image name="test.jpg" width="1000" height="1500"/>
-    </resources>
 </document>

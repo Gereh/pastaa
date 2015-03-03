@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"rI2NnfWSlTSGONvQo1RcJy7psarVgQ923vyirBwA" clientKey:@"TxxBA1EIPXsA2xdTzTfJb5kQsa1jcdPJy35b6Q5w"];
+
     [[UIApplication sharedApplication] setStatusBarHidden:YES];
     return YES;
 }

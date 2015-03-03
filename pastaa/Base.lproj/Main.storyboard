@@ -36,7 +36,7 @@
                                     <action selector="registerButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aNw-8k-nHH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pastaa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRn-LE-XFl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="پستا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRn-LE-XFl">
                                 <rect key="frame" x="59" y="30" width="201" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="zs9-9g-wOA"/>
@@ -87,6 +87,7 @@
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="backgroundImage" destination="yNu-zN-Ju4" id="JWi-4Q-WAT"/>
+                        <outlet property="loginBackgroundImage" destination="yNu-zN-Ju4" id="4it-NU-WBM"/>
                         <outlet property="loginOutlet" destination="9Lf-D5-Uoa" id="NsL-4O-ldr"/>
                         <outlet property="pageTitle" destination="FRn-LE-XFl" id="lqI-Tl-6Ee"/>
                         <outlet property="registerOutlet" destination="P9I-nU-Toj" id="YpS-tS-UOX"/>

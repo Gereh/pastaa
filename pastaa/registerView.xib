@@ -10,9 +10,6 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9QX-bG-V0q">
-                    <rect key="frame" x="0.0" y="0.0" width="326" height="568"/>
-                </imageView>
                 <view alpha="0.59999999999999964" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1S-4V-3Hd">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -28,11 +25,8 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <connections>
-                        <action selector="backToLoginPage:" destination="iN0-l3-epB" eventType="touchUpInside" id="sDm-Qz-W0C"/>
-                    </connections>
                 </button>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  نام کاربری" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7mc-rs-RT9">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="left" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   usernmae" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7mc-rs-RT9">
                     <rect key="frame" x="8" y="58" width="304" height="40"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
@@ -41,13 +35,13 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  ایمیل" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m4j-EW-JMG">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m4j-EW-JMG">
                     <rect key="frame" x="8" y="99" width="304" height="40"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  رمز" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zH2-1j-n1f">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zH2-1j-n1f">
                     <rect key="frame" x="8" y="140" width="304" height="40"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -66,10 +60,7 @@
                     </state>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="9QX-bG-V0q" secondAttribute="trailing" constant="-6" id="01I-Tk-JaU"/>
-                <constraint firstItem="9QX-bG-V0q" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2dd-nH-yyC"/>
                 <constraint firstItem="zH2-1j-n1f" firstAttribute="top" secondItem="m4j-EW-JMG" secondAttribute="bottom" constant="1" id="4BV-Iz-oUg"/>
                 <constraint firstAttribute="bottom" secondItem="w1S-4V-3Hd" secondAttribute="bottom" id="5pu-9n-nzm"/>
                 <constraint firstItem="xHm-E9-K3h" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Brr-0K-VRp"/>
@@ -77,13 +68,11 @@
                 <constraint firstItem="HZy-Jj-qvV" firstAttribute="top" secondItem="zH2-1j-n1f" secondAttribute="bottom" constant="15" id="Cyo-e2-YLa"/>
                 <constraint firstAttribute="trailing" secondItem="w1S-4V-3Hd" secondAttribute="trailing" id="H1L-tX-tKG"/>
                 <constraint firstItem="zH2-1j-n1f" firstAttribute="trailing" secondItem="m4j-EW-JMG" secondAttribute="trailing" id="Kgo-g5-ys2"/>
-                <constraint firstAttribute="bottom" secondItem="9QX-bG-V0q" secondAttribute="bottom" id="L7G-3N-Qe8"/>
                 <constraint firstItem="m4j-EW-JMG" firstAttribute="leading" secondItem="7mc-rs-RT9" secondAttribute="leading" id="Nub-BF-nUG"/>
                 <constraint firstItem="xHm-E9-K3h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="P7z-WV-Mwo"/>
                 <constraint firstItem="w1S-4V-3Hd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="V3W-xc-jFu"/>
                 <constraint firstItem="zH2-1j-n1f" firstAttribute="leading" secondItem="m4j-EW-JMG" secondAttribute="leading" id="VoU-GQ-bK4"/>
                 <constraint firstItem="zH2-1j-n1f" firstAttribute="height" secondItem="m4j-EW-JMG" secondAttribute="height" id="Wkm-Zd-Vs9"/>
-                <constraint firstItem="9QX-bG-V0q" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XPx-J1-k5G"/>
                 <constraint firstItem="m4j-EW-JMG" firstAttribute="trailing" secondItem="7mc-rs-RT9" secondAttribute="trailing" id="XpD-04-DzS"/>
                 <constraint firstAttribute="trailing" secondItem="7mc-rs-RT9" secondAttribute="trailing" constant="8" id="aWz-Sd-ltn"/>
                 <constraint firstItem="m4j-EW-JMG" firstAttribute="top" secondItem="7mc-rs-RT9" secondAttribute="bottom" constant="1" id="bmn-sS-YbD"/>
@@ -94,10 +83,14 @@
                 <constraint firstItem="7mc-rs-RT9" firstAttribute="top" secondItem="xHm-E9-K3h" secondAttribute="bottom" constant="8" id="wdL-73-5rm"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backBtn" destination="xHm-E9-K3h" id="TI7-ji-rSl"/>
+                <outlet property="passwordTextField" destination="zH2-1j-n1f" id="o0Y-l1-ulO"/>
+                <outlet property="registerBtn" destination="HZy-Jj-qvV" id="ihD-7t-WNe"/>
+                <outlet property="userEmailTextField" destination="m4j-EW-JMG" id="Wgv-Ii-vcq"/>
+                <outlet property="userNameTextField" destination="7mc-rs-RT9" id="U0N-De-dUA"/>
+            </connections>
             <point key="canvasLocation" x="268" y="264"/>
         </view>
     </objects>
-    <resources>
-        <image name="test.jpg" width="1000" height="1500"/>
-    </resources>
 </document>

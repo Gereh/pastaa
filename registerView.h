@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface registerView : UIView
+@property (weak, nonatomic) IBOutlet UIButton *backBtn;
+@property (weak, nonatomic) IBOutlet UIButton *registerBtn;
+
+
+
+@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *userEmailTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+
 
 @end
+
