@@ -12,6 +12,8 @@
 {
     UIView* regView;
     UIView* logView;
+    UIButton* registerButton;
+    UIButton* loginButton;
 }
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 @property (weak, nonatomic) IBOutlet UILabel *pageTitle;

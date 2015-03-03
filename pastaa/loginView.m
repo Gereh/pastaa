@@ -20,4 +20,14 @@
 - (IBAction)backToLoginPage:(id)sender {
     self.alpha=0;
 }
+- (UIViewController *)viewController {
+    if ([self.nextResponder isKindOfClass:UIViewController.class])
+        return (UIViewController *)self.nextResponder;
+    else
+        return nil;
+}
+//- (IBAction)loginBtn:(id)sender {
+//    [self.viewController performSegueWithIdentifier:@"loginConfirmed" sender:self];
+//}
+
 @end

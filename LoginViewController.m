@@ -39,7 +39,9 @@
         if([currentObject isKindOfClass:[UIView class]])
         {
             logView=(loginView*)currentObject;
+            [((loginView*)logView).loginBtn addTarget:self action:@selector(loginAction:) forControlEvents:UIControlEventTouchUpInside];
         }
+        
         
     }
     regView.frame=self.view.frame;
@@ -81,5 +83,7 @@
 {
     return YES;
 }
-
+-(void)loginAction:(UIButton*)sender{
+    [self performSegueWithIdentifier:@"loginConfirmed" sender:self];
+}
 @end

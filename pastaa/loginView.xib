@@ -84,6 +84,9 @@
                 <constraint firstItem="4Mb-Zl-iF3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uyY-7r-NLQ"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="loginBtn" destination="fcp-Rh-tRk" id="Brc-gh-bCr"/>
+            </connections>
         </view>
     </objects>
     <resources>
